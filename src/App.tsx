@@ -49,7 +49,10 @@ const App = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-br from-black via-indigo-900 to-black text-white">
+    <div
+      translate="no"
+      className="flex flex-col min-h-screen bg-gradient-to-br from-black via-indigo-900 to-black text-white"
+    >
       <Header activeTab={activeTab} setActiveTab={setActiveTab} />
       <main className="flex-grow container mx-auto px-4 py-8">
         <AnimatePresence mode="wait">

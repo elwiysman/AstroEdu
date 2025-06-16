@@ -73,7 +73,7 @@ const PlanetCard = ({ planet, onClick }: any) => (
 );
 
 const PlanetPage = ({ openModal }: any) => {
-  const [hoveredPlanet, setHoveredPlanet] = useState<number | null>(null);
+  const [, setHoveredPlanet] = useState<number | null>(null);
 
   return (
     <div className="min-h-[800px] relative">
